@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+<!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg  bg-dark fixed-top  " >
+        <div class="container-fluid " >
+          <img src="img/logo" height="65px" class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="artistas.html">Artistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="estrenos.html">Estrenos</a>
+              </li>
+            </ul>
+            <div id= "inicio-sesion" class="d-flex">
+              <div class="d-flex">
+                  <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalLogin"><i class="bi bi-person-circle"> Iniciar Sesion</i></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+<!--FINAL BARRA DE NAVEGACION-->
+<!--CARRUSEL-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/illapu.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Illapu</h5>
+          <p>"Hoy solamente quiero hablar,dejar que broten las palabras"</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/monlaferte.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mon Laferte</h5>
+          <p>"Mi buen amor, parece fácil para ti, alejarte para luego exigir que te quiera"</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/pailita.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pailita</h5>
+          <p>"Puras poesías por la noche te dedicaría, hasta una carta para ti te escribiría"</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--CARRUSEL-->
+<!--TARJETAS-->
+<div class="row row-cols-1 row-cols-md-4 g-4 p-3">
+  <div class="col">
+    <div class="card h-100" >
+      <img src="img/violeta parra.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light"  href="noticias.html">Noticias</h5>
+        <p class="card-text text-light">Encontraras toda la informacion sobre tu artista favorito</p>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/young cister.jpg" href="artistas.html" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Artistas</h5>
+        <p class="card-text text-light">Encontraras toda la informacion sobre tu artista favorito</p>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/lolla.jpeg" href="" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Eventos</h5>
+        <p class="card-text text-light">Encontraras toda la informacion sobre tu artista favorito</p>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/ultra solo2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Estrenos</h5>
+        <p class="card-text text-light">Encontraras toda la informacion sobre tu artista favorito</p>
+      </div>
+  </div>
+  </div>
+</div>
+<!--TARJETAS-->
+<!--CHANCHO EN PIEDRA-->
+<section class="bg-dark">
+  <div class="titulo p-3 text-light">
+    <h2 class="text-center">Chancho en Piedra regresa a los shows </h2>
+  </div>
+  
+  <div class="container">
+
+   
+    <div class="row justify-content-between p-3">
+      <div class="col-6" >
+        <img src="img/chanchoenpiedra.jpg" height="350px">
+      </div>
+      <div class="col-6 text-light p-2">
+        Este lunes los Chancho en Piedra oficializaron dos conciertos de carácter conceptual a través de los que, aseguran en un comunicado oficial, repasarán dos tramos de su historia, marcada por éxitos musicales que los han consolidado como uno de los grupos musicales más importantes de las últimas décadas.<br>
+        Específicamente el anuncio apunta a dos shows temáticos y conceptuales, agendados para los días viernes 19 y sábado 20 de agosto a las 21:00 horas, en el Teatro Cariola (San Diego 246). Las citas, promete el colectivo musical, «reunirán en un nuevo hito para el grupo, gran parte de las canciones engendradas en prolíficas épocas de creatividad musical en sus casi tres décadas de vida y producción discográfica».<br>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="title">
+    <h2 class="text-center p-2"> PROXIMOS EVENTOS</h2>
+  </div>
+  <div class="row row-cols-2 row-cols-md-2 g-2 p-3">
+  <div class="card text-center" >
+    <div class="card-header bg-dark text-light">
+      La Junta Festival 
+    </div>
+    <div class="col" style="background-image: url(img/lajuntafestival.jpeg)" >
+      <p class="card-text" ><br><br><br><br><br><br><br><br></p>
+      <a href="https://www.puntoticket.com/evento/festival-la-junta" class="btn btn-dark p-2">Mas informacion +</a>
+    </div>
+    <div class="card-footer  bg-dark text-light">
+      2 de Julio 2022
+    </div>
+  </div>
+  <div class="card text-center" >
+    <div class="card-header bg-dark text-light">
+      Los Bunkers: Ven Aqui
+    </div>
+    <div class="col" style="background-image: url(img/losbunkerss.png)" >
+      <p class="card-text" ><br><br><br><br><br><br><br><br></p>
+      <a href="https://www.puntoticket.com/los-bunkers" class="btn btn-dark p-2">Mas informacion +</a>
+    </div>
+    <div class="card-footer  bg-dark text-light">
+      11 de Marzo 2023
+    </div>
+  </div>
+    </div>
+</section>
+<!--CHANCHO EN PIEDRA-->
+<!--VIDEO-->
+<div class=" text-center" style="background-color:rgb(82, 80, 80) ;">
+<h2 class="text-light text-center p-3">ESCUCHA LO ULTIMO DE POLIMA WESTCOAST</h2> 
+<object data="https://www.youtube.com/embed/Qm_tHR9iwGo" width="560" height="315" type="text/html">
+</object>
+<!--VIDEO-->
+<!--FOOTER-->
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/rene.puente.794" role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/p/CfWyTA_OSSA/" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=pxL3jgJbxuo" role="button"
+        ><i class="bi bi-youtube"></i
+      ></a>
+
+
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Suscribete a nuestro Newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Correo Electronico</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribete
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        “La música es el arte más directo, entra por el oído y va al corazón”
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <ul class="list-unstyled mb-0">
+            <img src="img/logo" height="150px">
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">CONTENIDO</h5>
+
+          <ol class="list-unstyled mb-0">
+            <li>
+              <a href="noticias.html" class="text-white">Noticias</a>
+            </li>
+            <li>
+              <a href="artistas.html" class="text-white">Artistas</a>
+            </li>
+            <li>
+              <a href="eventos.html" class="text-white">Eventos</a>
+            </li>
+            <li>
+              <a href="estrenos.html" class="text-white">Estrenos</a>
+            </li>
+          </ol>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">SOBRE NOSOTROS</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="quienessomos.html" class="text-white">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="quienessomos.html" class="text-white">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">USUARIO</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  data-bs-toggle="modal" data-bs-target="#modalLogin" class="text-white">Iniciar Sesion</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Recuperar Contraseña</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">AFMA</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--MODAL-->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-dark">
+        <img src="img/logo" height="50px">Iniciar Sesion<hr>
+        <h5 class="modal-title text-light" id="modalLoginLabel" >Iniciar Sesi&oacute;n</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group ">
+            <label for="InputEmail" class="p-2">Correo Electr&oacute;nico</label>
+            <input type="email" class="form-control" id="InputEmail" name="email" aria-describedby="emailHelp" placeholder="Ingrese su correo electr&oacute;nico" required><br>
+            <label for="InputPassword" class="p-2">Contrase&ntilde;a</label>
+            <input type="password" class="form-control" id="InputPassword" name="password" placeholder="Ingrese su contraseña" required>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+            <button id="loguear" type="button" class="btn btn-dark">Iniciar Sesi&oacute;n</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<!-- FOOTER -->
+
+<!--JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--JAVASCRIPT-->
+</body>
+<!--USO-->
+</html>

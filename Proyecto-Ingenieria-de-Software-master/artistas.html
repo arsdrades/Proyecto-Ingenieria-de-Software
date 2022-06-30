@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+<!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg  bg-dark fixed-top  " >
+        <div class="container-fluid " >
+          <img src="img/logo" height="65px" class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="artistas.html">Artistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="estrenos.html">Estrenos</a>
+              </li>
+            </ul>
+            <div id= "inicio-sesion" class="d-flex">
+              <div class="d-flex">
+                  <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalLogin"><i class="bi bi-person-circle"> Iniciar Sesion</i></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+<!--FINAL BARRA DE NAVEGACION-->
+<!--CARRUSEL-->
+<div class="p-3">
+  <br>
+</div>
+<main id="main" class="img-fluid" style="background-image:url(img/imagen-1.png)">
+  <section class="py-5 text-center container text-light img-fluid">
+    <div class="row py-lg-5  text-light">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1>ARTISTAS</h1>
+        <p class="lead">¿Quieres saber mas sobre tu artista favorito? </p>
+      </div>
+    </div>
+  </section>
+</main>|
+<!--EVENTOS-->
+<div class="row row-cols-1 row-cols-md-5 g-5 p-3">
+  <div class="col">
+    <div class="card h-100" >
+      <img src="img/betocuevas.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light"  href="noticias.html">Beto cuevas</h5>
+        <p class="card-text text-light">Ex- Integrante de la Ley</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i data-bs-toggle="modal" data-bs-target="#modalLogin" class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/combotortuga.jpg" href="artistas.html" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">La Combo Tortuga</h5>
+        <p class="card-text text-light">Integrante de la Ley</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/Gepe.jpg" href="" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Gepe</h5>
+        <p class="card-text text-light">El autor de "Hablar de Ti"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/jorgegonzales.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Jorge Gonzales</h5>
+        <p class="card-text text-light">La cara de Los Prisioneros</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/joevasconcellos.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Joe Vasconcellos</h5>
+        <p class="card-text text-light">El Autor de "Huellas"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/pablochill.webp" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Pablo Chill-E</h5>
+        <p class="card-text text-light">El Autor de "Blood"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/quiqueneira.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Quique Neira</h5>
+        <p class="card-text text-light">El Autor de "Sé"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/luchojara.webp" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Luis Jara</h5>
+        <p class="card-text text-light">El Autor de "No Sabía"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/drefquila.webp" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">DrefQuila</h5>
+        <p class="card-text text-light">El Autor de "A Fuego"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/villacarino.webp" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Villa Cariño</h5>
+        <p class="card-text text-light">Los  de "Serenata Cruel"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/marcianeke.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Marcianeke</h5>
+        <p class="card-text text-light">El Autor de "Y que pasa"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/budy.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Buddy Richard</h5>
+        <p class="card-text text-light">Un icono de la Musica</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/anatijoux.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Ana Tijoux</h5>
+        <p class="card-text text-light">La autora "Antipatriarca"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/polimaw.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Polima WestCoast</h5>
+        <p class="card-text text-light">El Autor de "Ultra Solo"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/javieramena.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Javiera Mena</h5>
+        <p class="card-text text-light">Compositora de "Otra Era"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/crismj.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Cris Mj</h5>
+        <p class="card-text text-light">Noche en Medellin</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/aka.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Aka 420</h5>
+        <p class="card-text text-light">"Me Arrepentí"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/chyste.webp" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Chyste Mc</h5>
+        <p class="card-text text-light">un emcee y músico </p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/mon.png" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Mon Laferte</h5>
+        <p class="card-text text-light">La Representante Chilena</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/javieraparra.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">Javiera Parra</h5>
+        <p class="card-text text-light">La Autora de "Respiro"</p>
+        <div class="d-flex">
+          <button class="btn btn-light"><i class="bi bi-file-earmark-music"> Mas Informacion +</i></button>
+      </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!--EVENTOS-->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/rene.puente.794" role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/p/CfWyTA_OSSA/" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/watch?v=pxL3jgJbxuo" role="button"
+        ><i class="bi bi-youtube"></i
+      ></a>
+
+
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Suscribete a nuestro Newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Correo Electronico</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribete
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        “La música es el arte más directo, entra por el oído y va al corazón”
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <ul class="list-unstyled mb-0">
+            <img src="img/logo" height="150px">
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">CONTENIDO</h5>
+
+          <ol class="list-unstyled mb-0">
+            <li>
+              <a href="noticias.html" class="text-white">Noticias</a>
+            </li>
+            <li>
+              <a href="artistas.html" class="text-white">Artistas</a>
+            </li>
+            <li>
+              <a href="eventos.html" class="text-white">Eventos</a>
+            </li>
+            <li>
+              <a href="estrenos.html" class="text-white">Estrenos</a>
+            </li>
+          </ol>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">SOBRE NOSOTROS</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="quienessomos.html" class="text-white">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="quienessomos.html" class="text-white">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">USUARIO</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!"  data-bs-toggle="modal" data-bs-target="#modalLogin" class="text-white">Iniciar Sesion</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Recuperar Contraseña</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">AFMA</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--MODAL-->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-body">
+      <div class="modal-header bg-dark">
+        <img src="img/logo" height="50px">Beto<hr>
+        <h5 class="modal-title text-light" id="modalLoginLabel" >Beto Cuevas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="card mb-3" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/betocuevas.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Luis Alberto Cuevas Olmedo (Santiago de Chile, 12 de septiembre de 1967), más conocido como Beto Cuevas, es un cantante, músico, compositor, productor, actor y diseñador chileno. Se hizo conocido en Latinoamérica por ser vocalista y compositor principal de la banda chilena La Ley entre 1990 y 2005, y en un segundo período desde 2013 hasta 2016.</p>
+              <a href="https://www.puntoticket.com/evento/cami"><a class="btn btn-outline-dark btn-floating m-1"role="button"
+                ><i class="bi bi-youtube"></i
+              ></a>Escucha su Musica</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<!-- FOOTER -->
+
+<!--JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--JAVASCRIPT-->
+</body>
+<!--USO-->
+</html>
